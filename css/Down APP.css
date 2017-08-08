@@ -1,0 +1,349 @@
+body {
+  color: #333;
+  font: 14px/14px "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体";
+}
+body, html {
+  width: 100%;
+  height: 100%;
+}
+a:link{
+  text-decoration: none;
+}
+
+#active{
+  color: #EA4840;
+  padding-left: 50px;
+}
+
+
+/*头部*/
+#header {
+  width: 100%;
+  height: 70px;
+  background: #f0ad4e;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header_wrapper_nav{
+  height: 70px;
+  margin: 0 auto;
+}
+
+.header_logo{
+  height: 65px;
+  padding: 18px 20px 18px 15px;
+  font-size: 40px;
+  line-height: 29px;
+  font-family: latobold, sans-serif;
+}
+.header_wrapper img{
+  vertical-align: middle;
+}
+.header_nav{
+  display: block;
+  height: 100%;
+  text-align: center;
+  margin-top: 12px;
+  width: 780px;
+  overflow: auto;
+}
+.header_nav li{
+  display: inline-block;
+  white-space: nowrap;
+  float: left;
+  height: 100%;
+  overflow: auto;
+}
+.header_nav li a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  font-family: " 微软雅黑";
+}
+.header_nav li a span{
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  font-family: " 微软雅黑";
+  white-space: nowrap;
+}
+
+#btn{
+  float: left;
+  font-size: 16px;
+  font-family: " 微软雅黑";
+  background-color: #EA4840;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 6px;
+  margin-right: 8px;
+  margin-top: 13px;
+}
+#download{
+  width: 100%;
+  height: 420px;
+  margin: 0 auto;
+  background: url(../img/App/xiazaiye-_02.jpg) no-repeat center;;
+}
+
+
+
+/*中间下载部分*/
+#download .xiazai{
+  width: 1200px;
+  height: 420px;
+  margin: 0 auto;
+  padding-top: 204px;
+  padding-right: 340px;
+}
+.xiazai dl {
+  float: right;
+  width: 308px;
+  height: 96px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.xiazai dl dt {
+  float: left;
+}
+.xiazai dl dd {
+  float: right;
+  width: 188px;
+  background: green;
+  height: 36px;
+  line-height: 36px;
+  margin-top: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 17px;
+  padding-left: 20px;
+}
+.xiazai dl dd a {
+  color: #fff;
+}
+.xiazai dl dd img {
+  margin-right: 18px;
+  margin-bottom: 5px;
+}
+
+
+
+/*下方图片展示*/
+#app_content{
+  background: #fff;
+  padding-bottom: 30px
+}
+.downloadbox {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+}
+.downloadbox p{
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+  color: #3d3838;
+  margin-top: 10px;
+  margin-bottom: 33px;
+}
+.listimg {
+  margin-top: 50px;
+}
+.listimg li {
+  width: 32%;
+  margin-right: 0.5%;
+  height: 216px;
+  border: 1px solid #eaeaea;
+  display: inline-block;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+.listimg li img {
+  text-align: left;
+  float: left;
+  margin-left: 38px;
+}
+.listimg li div {
+  float: right;
+  margin-top: 55px;
+}
+.listimg li div p{
+  display: block;
+  line-height: 20px;
+  text-align: left;
+  width: 170px;
+  overflow: hidden;
+  color: #1d1515;
+}
+.listimg li .listimg_p2{
+  margin-top: 10px;
+  color: #1d1515;
+  font-size: 14px;
+}
+
+
+/*底部广告*/
+/*第一*/
+.bggrey {
+  width: 100%;
+  height: 480px;
+   background: #f8f8f8;
+}
+.dcenter {
+  width: 1200px;
+  margin: 0 auto;
+}
+.bijiage {
+  float: left;
+  margin: 200px 100px;
+  font-size: 22px;
+  text-align: center;
+  color: #3d3838;
+}
+.dcenter_img{
+  margin-left: 160px;
+  margin-top: 50px
+}
+
+/*第二  基本样式相同*/
+.bgfff {
+  width: 100%;
+  height: 480px;
+}
+.txtimg {
+  float: right;
+  margin: 170px 0;
+  font-size: 22px;
+  text-align: center;
+  color: #3d3838;
+  position: relative;
+  right: 200px;
+  vertical-align: middle;
+}
+
+
+/*保障*/
+
+#baozhang{
+  text-align: center;
+  width: 100%;
+  padding-top: 60px;
+  background: #fff;
+  clear: both;
+}
+#baozhang h2 {
+  font-size: 30px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+}
+#baozhang h2 span{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fb474f;
+}
+#baozhang p {
+  font-size: 22px;
+  color: #3d3838;
+  margin: 0;
+}
+
+/*三对勾ul*/
+#servi{
+  width: 100%;
+  padding-top: 20px;
+  background: #fff;
+  height: 50px;
+  font-family: "微软雅黑";
+}
+#servi ul {
+  width: 420px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#servi ul li {
+  width: 33%;
+  float: left;
+  text-align: center;
+  color: #1d1515;
+  font-size: 18px;
+}
+
+
+/*脚步*/
+.footer {
+  width: 100%;
+  clear: both;
+  padding-top: 50px;
+  height: 170px;
+  background: #fff;
+}
+.footer dl {
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer dl dt {
+  float: left;
+  font-family: " 微软雅黑";
+  font-size: 18px;
+}
+.footer dl dd {
+  display: block;
+  margin-left: 30px;
+  width: 1090px;
+  line-height: 30px;
+  float: left;
+}
+.footer dl dd i {
+  font-size: 16px;
+  color: #898989;
+  display: inline-block;
+  width: 8%;
+  text-align: center;
+  font-weight: 200;
+  cursor: pointer;
+  font-family: "微软雅黑";
+}
+
+
+/*底部图标*/
+.beian {
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  padding-top: 50px;
+}
+#htit {
+  position: relative;
+  bottom: 20px;
+  text-align: left;
+  font-weight: bold;
+  width: 1200px;
+  margin: 0 auto;
+  background: none;
+  color: #1d1515;
+  font-size: 18px;
+}
+.hezuo li:first-child {
+  margin: 0;
+}
+.hezuo{
+  width: 1200px;
+  margin: 0 auto;
+}
+.hezuo li {
+  float: left;
+  width: 10%;
+  height: 60px;
+  text-align: center;
+  background: #fff;
+  margin-left: 1%;
+  line-height: 55px;
+}
+.beian p {
+  color: #898989;
+}
+
+
