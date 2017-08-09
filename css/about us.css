@@ -9,11 +9,6 @@ body, html {
 a:link{
   text-decoration: none;
 }
-
-#active{
-  color: #EA4840;
-  padding-left: 50px;
-}
 *{
   box-sizing: border-box;
 }
@@ -80,151 +75,46 @@ img{
 
 
 
-
-
-#download{
+/*中间图片*/
+.aboutbanner{
   width: 100%;
-  height: 420px;
+  height: 240px;
   margin: 0 auto;
-  background: url(../img/App/xiazaiye-_02.jpg) no-repeat center center;
+  background: url("../img/about/aboutbanner.jpg") center no-repeat;
 }
 
+/*内容区*/
 
-/*中间下载部分*/
-#download .xiazai{
-  width: 1200px ;
-  height: 420px;
-  margin: 0 auto;
-  margin-right: 0;
-  padding-top: 204px;
-  padding-right: 340px;
-}
-.xiazai dl {
-  float: right;
-  width: 308px;
-  height: 96px;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-.xiazai dl dt {
-  float: left;
-}
-.xiazai dl dd {
-  float: right;
-  width: 188px;
-  background: green;
-  height: 36px;
-  line-height: 36px;
-  margin-top: 5px;
-  border-radius: 6px;
-  color: #fff;
-  font-size: 17px;
-  padding-left: 20px;
-}
-.xiazai dl dd a {
-  color: #fff;
-  text-align: center;
-}
-.xiazai dl dd img {
-  margin-right: 18px;
-  margin-bottom: 5px;
-}
-
-
-
-/*下方图片展示*/
-#app_content{
+.abouttxt{
+  width: 1160px;
+  margin: 24px auto;
+  border: 1px solid #e5e5e5;
+  padding: 0 20px;
   background: #fff;
-  padding-bottom: 30px
 }
-.downloadbox {
-  width: 1200px;
-  margin: 0 auto;
+.abouttxt h3{
+  font-family: " 微软雅黑";
+  font-weight: bold;
+  border-bottom: 4px solid #e84b47;
+  width: 96px;
+  font-size: 20px;
   text-align: center;
-  padding-top: 60px;
+  padding: 5px 0;
+  margin: 20px 0;
 }
-.downloadbox p{
-  text-align: center;
-  font-size: 22px;
-  margin-top: 10px;
-  color: #3d3838;
-  margin-top: 10px;
-  margin-bottom: 33px;
+.abouttxt p {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #929292;
+  line-height: 28px;
 }
-.listimg {
-  margin-top: 50px;
-}
-.listimg li {
-  width: 32%;
-  margin-right: 0.5%;
-  height: 216px;
-  border: 1px solid #eaeaea;
-  display: inline-block;
-  padding-top: 20px;
-  margin-top: 10px;
-}
-.listimg li img {
-  text-align: left;
-  float: left;
-  margin-left: 38px;
-}
-.listimg li div {
-  float: right;
-  margin-top: 55px;
-}
-.listimg li div p{
-  display: block;
-  line-height: 20px;
-  text-align: left;
-  width: 170px;
-  overflow: hidden;
-  color: #1d1515;
-}
-.listimg li .listimg_p2{
-  margin-top: 10px;
-  color: #1d1515;
-  font-size: 14px;
+.abouttxt_content{
+  border-bottom: 1px solid #e5e5e5;
 }
 
 
-/*底部广告*/
-/*第一*/
-.bggrey {
-  width: 100%;
-  height: 480px;
-   background: #f8f8f8;
-}
-.dcenter {
-  width: 1200px;
-  margin: 0 auto;
-}
-.bijiage {
-  float: left;
-  margin: 200px 100px;
-  font-size: 22px;
-  text-align: center;
-  color: #3d3838;
-}
-.dcenter_img{
-  margin-left: 160px;
-  margin-top: 50px
-}
-
-/*第二  基本样式相同*/
-.bgfff {
-  width: 100%;
-  height: 480px;
-}
-.txtimg {
-  float: right;
-  margin: 170px 0;
-  font-size: 22px;
-  text-align: center;
-  color: #3d3838;
-  position: relative;
-  right: 200px;
-  vertical-align: middle;
-}
 
 
 /*保障*/
@@ -347,5 +237,3 @@ img{
 .beian p {
   color: #898989;
 }
-
-

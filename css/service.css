@@ -10,10 +10,6 @@ a:link{
   text-decoration: none;
 }
 
-#active{
-  color: #EA4840;
-  padding-left: 50px;
-}
 *{
   box-sizing: border-box;
 }
@@ -81,149 +77,110 @@ img{
 
 
 
-
-#download{
-  width: 100%;
-  height: 420px;
-  margin: 0 auto;
-  background: url(../img/App/xiazaiye-_02.jpg) no-repeat center center;
-}
-
-
-/*中间下载部分*/
-#download .xiazai{
-  width: 1200px ;
-  height: 420px;
-  margin: 0 auto;
-  margin-right: 0;
-  padding-top: 204px;
-  padding-right: 340px;
-}
-.xiazai dl {
-  float: right;
-  width: 308px;
-  height: 96px;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-.xiazai dl dt {
-  float: left;
-}
-.xiazai dl dd {
-  float: right;
-  width: 188px;
-  background: green;
-  height: 36px;
-  line-height: 36px;
-  margin-top: 5px;
-  border-radius: 6px;
-  color: #fff;
-  font-size: 17px;
-  padding-left: 20px;
-}
-.xiazai dl dd a {
-  color: #fff;
-  text-align: center;
-}
-.xiazai dl dd img {
-  margin-right: 18px;
-  margin-bottom: 5px;
-}
-
-
-
-/*下方图片展示*/
-#app_content{
-  background: #fff;
-  padding-bottom: 30px
-}
-.downloadbox {
+/*h2标题*/
+.h2 {
+  line-height: 85px;
   width: 1200px;
   margin: 0 auto;
-  text-align: center;
-  padding-top: 60px;
-}
-.downloadbox p{
-  text-align: center;
-  font-size: 22px;
-  margin-top: 10px;
-  color: #3d3838;
-  margin-top: 10px;
-  margin-bottom: 33px;
-}
-.listimg {
-  margin-top: 50px;
-}
-.listimg li {
-  width: 32%;
-  margin-right: 0.5%;
-  height: 216px;
-  border: 1px solid #eaeaea;
-  display: inline-block;
-  padding-top: 20px;
-  margin-top: 10px;
-}
-.listimg li img {
-  text-align: left;
-  float: left;
-  margin-left: 38px;
-}
-.listimg li div {
-  float: right;
-  margin-top: 55px;
-}
-.listimg li div p{
-  display: block;
-  line-height: 20px;
-  text-align: left;
-  width: 170px;
-  overflow: hidden;
-  color: #1d1515;
-}
-.listimg li .listimg_p2{
-  margin-top: 10px;
-  color: #1d1515;
-  font-size: 14px;
+  font-size: 18px;
+  font-family: " 微软雅黑";
+  font-weight: bold;
 }
 
-
-/*底部广告*/
-/*第一*/
-.bggrey {
-  width: 100%;
-  height: 480px;
-   background: #f8f8f8;
-}
-.dcenter {
+/*主体*/
+.service-center {
   width: 1200px;
   margin: 0 auto;
-}
-.bijiage {
-  float: left;
-  margin: 200px 100px;
-  font-size: 22px;
-  text-align: center;
-  color: #3d3838;
-}
-.dcenter_img{
-  margin-left: 160px;
-  margin-top: 50px
-}
-
-/*第二  基本样式相同*/
-.bgfff {
-  width: 100%;
-  height: 480px;
-}
-.txtimg {
-  float: right;
-  margin: 170px 0;
-  font-size: 22px;
-  text-align: center;
-  color: #3d3838;
   position: relative;
-  right: 200px;
-  vertical-align: middle;
+}
+
+
+/*左边*/
+.centerleft {
+  width: 970px;
+  float: left;
+  margin-bottom: 50px;
+}
+.centerleft ul li {
+  width: 232px;
+  height: 300px;
+  border: 1px solid #eaeaea;
+  padding: 10px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+  cursor: pointer;/*光标类型*/
+}
+.centerleft ul li .big_img{
+  width: 210px;
+  height: 210px;
+}
+.centerleft ul p {
+  height: 26px;
+  line-height: 26px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.centerleft ul p span{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: " 微软雅黑";
+}
+.centerleft ul li .pp {
+  font-size: 12px;
+  color: #929292;
+}
+.centerleft p.pp span {
+  float: right;
+  font-size: 12px;
+}
+
+
+
+/*按钮*/
+.fenye{
+  width: 100%;
+  margin: 0 auto;
+  height: 152px;
+  clear: both;
+  text-align: center;
+}
+.fenye span{
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin: 50px 5px;
+  background: #fff;
+  display: inline-block;
+  font-size: 16px;
+  color: #b1b1b1;
+  cursor: pointer;
+}
+
+
+
+/*右边*/
+.centerright {
+  margin-top: 10px;
+  width: 230px;
+  float: right;
+}
+.erweima{
+  width: 230px;
+  height: 290px;
+  margin-top: 10px;
+  background: url(../img/service/tuijianfuwushang_06.jpg) center no-repeat;
+}
+.erweima img{
+  width:130px;
+  height:auto;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 
@@ -347,5 +304,3 @@ img{
 .beian p {
   color: #898989;
 }
-
-

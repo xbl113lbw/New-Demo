@@ -10,10 +10,6 @@ a:link{
   text-decoration: none;
 }
 
-#active{
-  color: #EA4840;
-  padding-left: 50px;
-}
 *{
   box-sizing: border-box;
 }
@@ -80,150 +76,146 @@ img{
 
 
 
-
-
-#download{
+/*图片背景*/
+.bg{
   width: 100%;
-  height: 420px;
-  margin: 0 auto;
-  background: url(../img/App/xiazaiye-_02.jpg) no-repeat center center;
+  height: 300px;
+  background: url("../img/shopper/information.jpg") center no-repeat;
 }
 
 
-/*中间下载部分*/
-#download .xiazai{
-  width: 1200px ;
-  height: 420px;
-  margin: 0 auto;
-  margin-right: 0;
-  padding-top: 204px;
-  padding-right: 340px;
+/*主体*/
+
+/*one*/
+.info_one{
+  width: 100%;
+  height: 300px;
+  background: #fff;
 }
-.xiazai dl {
+.one_center{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.one_center_img {
+  width: 166px;
+  height: 166px;
+  float: left;
+  margin: 60px;
+}
+.one_center_text{
   float: right;
-  width: 308px;
-  height: 96px;
-  margin-top: 0;
-  margin-bottom: 20px;
+  line-height: 60px;
+  padding-top: 100px;
+  margin-right: 150px;
 }
-.xiazai dl dt {
+.one_center_text b{
+  font-size: 32px;
+}
+.one_center_text p{
+  font-size: 22px;
+  margin-left: 55px;
+}
+
+/*two*/
+.info_two{
+  width: 100%;
+  height: 300px;
+}
+.two_center{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.two_center_text{
+  line-height: 60px;
+  padding-top: 90px;
   float: left;
 }
-.xiazai dl dd {
-  float: right;
-  width: 188px;
-  background: green;
+.two_center_text b{
+  font-size: 32px;
+}
+.two_center_text p{
+  font-size: 22px;
+  margin-left: 55px;
+}
+.two_center_img {
+  width: 166px;
+  height: 166px;
+  float: left;
+  margin: 60px;
+}
+
+
+/*提交合作信息*/
+.cooperation{
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 110px;
+}
+.cooperation span{
+  font-weight: bold;
+  color: #fb474f;
+}
+
+/*提交信息表单*/
+
+.cooperation-center{
+  width: 660px;
+  margin: 0 auto 50px;
+  text-align: center;
+  padding-top: 20px;
+  overflow: hidden;
+}
+.tanme{
+  height: 46px;
+  line-height: 46px;
+}
+.cooperation-center div span{
+  width: 120px;
+  text-align: right;
+  float: left;
+  display: block;
+}
+.cooperation-center div em {
+  color: red;
+  margin-right: 5px;
+}
+.cooperation-center div input[type=text]{
+  width: 500px;
+  padding-left: 15px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 6px;
+  border: 1px solid #d1d1d1;
+  margin-left: 10px;
+}
+.ched div input {
+  margin-right: 2px;
+}
+.ched{
+  height: 100%;/*防止换行宽度不够 被下方覆盖*/
+}
+.ched label {
+  margin: 0 6px;
+}
+#note{
+  padding-left: 17px;
+  border-radius: 6px;
+  border: 1px solid #d1d1d1;
+  margin-left: 13px;
+}
+
+.tbtn{
+  width: 126px;
+  background: #fb474f;
   height: 36px;
   line-height: 36px;
-  margin-top: 5px;
+  color: #fff;
   border-radius: 6px;
-  color: #fff;
-  font-size: 17px;
-  padding-left: 20px;
-}
-.xiazai dl dd a {
-  color: #fff;
-  text-align: center;
-}
-.xiazai dl dd img {
-  margin-right: 18px;
-  margin-bottom: 5px;
-}
-
-
-
-/*下方图片展示*/
-#app_content{
-  background: #fff;
-  padding-bottom: 30px
-}
-.downloadbox {
-  width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 60px;
-}
-.downloadbox p{
-  text-align: center;
-  font-size: 22px;
-  margin-top: 10px;
-  color: #3d3838;
-  margin-top: 10px;
-  margin-bottom: 33px;
-}
-.listimg {
-  margin-top: 50px;
-}
-.listimg li {
-  width: 32%;
-  margin-right: 0.5%;
-  height: 216px;
-  border: 1px solid #eaeaea;
-  display: inline-block;
-  padding-top: 20px;
-  margin-top: 10px;
-}
-.listimg li img {
-  text-align: left;
-  float: left;
-  margin-left: 38px;
-}
-.listimg li div {
-  float: right;
-  margin-top: 55px;
-}
-.listimg li div p{
-  display: block;
-  line-height: 20px;
-  text-align: left;
-  width: 170px;
-  overflow: hidden;
-  color: #1d1515;
-}
-.listimg li .listimg_p2{
-  margin-top: 10px;
-  color: #1d1515;
-  font-size: 14px;
-}
-
-
-/*底部广告*/
-/*第一*/
-.bggrey {
-  width: 100%;
-  height: 480px;
-   background: #f8f8f8;
-}
-.dcenter {
-  width: 1200px;
-  margin: 0 auto;
-}
-.bijiage {
-  float: left;
-  margin: 200px 100px;
-  font-size: 22px;
-  text-align: center;
-  color: #3d3838;
-}
-.dcenter_img{
-  margin-left: 160px;
-  margin-top: 50px
-}
-
-/*第二  基本样式相同*/
-.bgfff {
-  width: 100%;
-  height: 480px;
-}
-.txtimg {
-  float: right;
-  margin: 170px 0;
-  font-size: 22px;
-  text-align: center;
-  color: #3d3838;
-  position: relative;
-  right: 200px;
-  vertical-align: middle;
+  border: none;
+  margin-top: 30px;
 }
 
 

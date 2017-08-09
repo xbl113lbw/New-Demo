@@ -10,16 +10,13 @@ a:link{
   text-decoration: none;
 }
 
-#active{
-  color: #EA4840;
-  padding-left: 50px;
-}
 *{
   box-sizing: border-box;
 }
 img{
   vertical-align: middle;
 }
+
 
 /*头部*/
 #header{
@@ -81,150 +78,173 @@ img{
 
 
 
-
-#download{
-  width: 100%;
-  height: 420px;
-  margin: 0 auto;
-  background: url(../img/App/xiazaiye-_02.jpg) no-repeat center center;
-}
-
-
-/*中间下载部分*/
-#download .xiazai{
-  width: 1200px ;
-  height: 420px;
-  margin: 0 auto;
-  margin-right: 0;
-  padding-top: 204px;
-  padding-right: 340px;
-}
-.xiazai dl {
-  float: right;
-  width: 308px;
-  height: 96px;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-.xiazai dl dt {
-  float: left;
-}
-.xiazai dl dd {
-  float: right;
-  width: 188px;
-  background: green;
-  height: 36px;
-  line-height: 36px;
-  margin-top: 5px;
-  border-radius: 6px;
-  color: #fff;
-  font-size: 17px;
-  padding-left: 20px;
-}
-.xiazai dl dd a {
-  color: #fff;
-  text-align: center;
-}
-.xiazai dl dd img {
-  margin-right: 18px;
-  margin-bottom: 5px;
-}
-
-
-
-/*下方图片展示*/
-#app_content{
-  background: #fff;
-  padding-bottom: 30px
-}
-.downloadbox {
+/*服务选项*/
+.service-center{
   width: 1200px;
   margin: 0 auto;
-  text-align: center;
-  padding-top: 60px;
+  position: relative;
 }
-.downloadbox p{
-  text-align: center;
-  font-size: 22px;
-  margin-top: 10px;
-  color: #3d3838;
-  margin-top: 10px;
-  margin-bottom: 33px;
+.h2,.h2 span{
+  line-height: 85px;
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: " 微软雅黑";
 }
-.listimg {
-  margin-top: 50px;
-}
-.listimg li {
-  width: 32%;
-  margin-right: 0.5%;
-  height: 216px;
-  border: 1px solid #eaeaea;
-  display: inline-block;
-  padding-top: 20px;
-  margin-top: 10px;
-}
-.listimg li img {
-  text-align: left;
+
+/*左边*/
+.centerleft {
+  width: 960px;
   float: left;
-  margin-left: 38px;
+  margin-bottom: 50px;
+
 }
-.listimg li div {
-  float: right;
-  margin-top: 55px;
-}
-.listimg li div p{
-  display: block;
-  line-height: 20px;
-  text-align: left;
-  width: 170px;
+#curauto{
   overflow: hidden;
+  border: 1px solid #e5e5e5;
+  height: 100%;
+}
+.pic {
+  border: 1px solid #e5e5e5;
+  margin: 30px;
+  float: left;
+}
+.spm {
+  float: left;
+  position: relative;
+  top: 25px;
+}
+.spm i:nth-child(1) {
+  font-size: 18px;
   color: #1d1515;
 }
-.listimg li .listimg_p2{
+.spm i {
+  display: block;
+  line-height: 42px;
+  height: 42px;
+}
+.spm i b {
+  font-size: 20px;
+  color: #fc545e;
+  margin-left: 10px;
+}
+.spm i b.oldpic {
+  font-size: 14px;
+  color: #898989;
+  margin-left: 40px;
+  font-weight: normal;
+}
+.spm i b.oldpic em {
+  text-decoration: line-through;
+}
+.spm i .yishou {
+  color: #fb474f;
+  margin-left: 10px;
+  font-style: normal;
+}
+
+/*二维码*/
+.spf {
+  float: right;
+  margin: 20px 60px 0 0;
+}
+.spf b {
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+}
+.spf_red{
+  color: #fb474f;
+}
+
+/*右边*/
+.centerright {
+  width: 230px;
+  float: right;
+}
+.rightct {
+  width: 230px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  text-align: center;
+}
+.rightct h3{
+  font-size: 20px;
+  padding-left: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: left;
+  font-family: " 微软雅黑";
+  font-weight: bold;
+}
+.rightct_img{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: 40px 50px;
+  margin-bottom: 10px;
+}
+.rightct_yun{
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: " 微软雅黑";
+}
+.rightct_p{
+  text-align: left;
+  padding: 0 10px;
+  line-height: 36px;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.rightct .rightct_p span {
+  float: right;
+  color: #fb474f;
+}
+.erweima{
+  width: 230px;
+  height: 290px;
   margin-top: 10px;
-  color: #1d1515;
+  background: url("../img/shopping/tuijianfuwushang_06.jpg") center no-repeat;
+}
+.erweima img {
+  width: 130px;
+  margin: 50px 0 0 50px;
+}
+
+
+/*文字介绍部分*/
+.cdown{
+  clear: both;/*清楚上方浮动造成的影响*/
+  background: #fff;
+  padding: 30px 20px;
+  border: 1px solid #e5e5e5;
+  margin-top: 10px;
+}
+.cdown_description{
+  border-bottom: 3px solid #fb474f;
+  padding: 5px;
+  margin-top: 10px;
+  width: 66px;
+}
+.cdown p {
+  line-height: 24px;
+  margin: 15px 0 5px;
   font-size: 14px;
 }
-
-
-/*底部广告*/
-/*第一*/
-.bggrey {
-  width: 100%;
-  height: 480px;
-   background: #f8f8f8;
+.cdown p span{
+  margin-left: 20px;
 }
-.dcenter {
-  width: 1200px;
-  margin: 0 auto;
-}
-.bijiage {
-  float: left;
-  margin: 200px 100px;
-  font-size: 22px;
-  text-align: center;
-  color: #3d3838;
-}
-.dcenter_img{
-  margin-left: 160px;
-  margin-top: 50px
+.cdown p span em {
+  color: #fb474f;
+  font-style: normal;
 }
 
-/*第二  基本样式相同*/
-.bgfff {
-  width: 100%;
-  height: 480px;
-}
-.txtimg {
-  float: right;
-  margin: 170px 0;
-  font-size: 22px;
-  text-align: center;
-  color: #3d3838;
-  position: relative;
-  right: 200px;
-  vertical-align: middle;
-}
 
 
 /*保障*/
@@ -347,5 +367,3 @@ img{
 .beian p {
   color: #898989;
 }
-
-
